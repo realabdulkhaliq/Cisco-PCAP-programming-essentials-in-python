@@ -30,4 +30,4 @@ IDLE is an acronym: Integrated Development and Learning Environment.
 Write & Run code pressing F5 when the editor window is active.
 This is for learning purpose IDLE.
 
-Industry Standerd IDLE: VS Code, Py Charm
+Industry Standerd IDE: VS Code, Py Charm
