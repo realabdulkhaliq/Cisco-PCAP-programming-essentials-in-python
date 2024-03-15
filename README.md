@@ -31,3 +31,6 @@ Write & Run code pressing F5 when the editor window is active.
 This is for learning purpose IDLE.
 
 Industry Standerd IDE: VS Code, Py Charm
+
+02
+MinGW C compiler for C language
