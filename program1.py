@@ -14,3 +14,20 @@ intro("M", "Awais")
 
 out = intro("M", "Ali")
 print(out)  # Now return 123 print
+
+def happy_new_year(wishes = True):
+    print("Three...")
+    print("Two...")
+    print("One...")
+    if not wishes:
+        return 123
+ 
+    print("Happy New Year!")
+
+happy_new_year()
+happy_new_year(False)
+num = happy_new_year()
+print(num)
+num1 = happy_new_year(False)
+print(num1)
+
