@@ -11,3 +11,6 @@ x = lambda a, b, c : a + b + c
 print(x(5, 6, 2))
 x = lambda a, b, c: a + b + c
 print(x(4, 2.5, 1.1))
+
+
+# Use Lambda Functions?
