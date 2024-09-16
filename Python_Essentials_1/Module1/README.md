@@ -30,6 +30,12 @@ IDLE is an acronym: Integrated Development and Learning Environment.
 Write & Run code pressing F5 when the editor window is active.
 This is for learning purpose IDLE.
 
+### Components of an IDE
+
+- an **editor** which will support you in writing the code (it should have some special features, not available in simple tools); this dedicated editor will give you more than the standard OS equipment;
+- a **console** in which you can launch your newly written code and stop it forcibly when it gets out of control;
+- a tool named a **debugger**, able to launch your code step-by-step, which will allow you to inspect it at each moment of execution.
+
 Industry Standerd IDE: VS Code, Py Charm
 
 02
