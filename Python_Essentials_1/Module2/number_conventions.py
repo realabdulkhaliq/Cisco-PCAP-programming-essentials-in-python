@@ -1,5 +1,5 @@
 # Octal and hexadecimal numbers
-# If an integer number is preceded by an 0O or 0o prefix (zero-o), it will be treated as an octal value.
+# If an integer number is preceded by an 0O or 0o prefix (zero-o), it is octal value.
 print(0o123)
 
 # *hexadecimal numbers*. Such numbers should be preceded by the prefix 0x or 0X (zero-x).
