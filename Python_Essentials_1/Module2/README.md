@@ -62,3 +62,12 @@ of these containers can be varied in (almost) any way.
 They are called keywords or (more precisely) reserved keywords. They are reserved because you mustn't use them as names: neither for your variables, nor functions, nor any other named entities you want to create.
 
 **A variable comes into existence as a result of assigning a value to it.**
+
+Concatenation operator:
+
+`string + string`
+
+Replication operator:
+
+`string * number` </br>
+`number * string`
