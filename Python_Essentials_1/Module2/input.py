@@ -1,7 +1,6 @@
-a = input("Enter a number: ")
-print ( 10 * a)
+print("Tell me anything...")
+anything = input()
+print("Hmm...", anything, "... Really?")
 
-b = int(input("Enter another number: "))
-print(10 * b)
-
-# NOTE: input always return a string, for number we should type cast it
+# NOTE: you need to assign the result to a variable; this is crucial ‒ 
+# missing out this step will cause the entered data to be lost
