@@ -71,3 +71,11 @@ Replication operator:
 
 `string * number` </br>
 `number * string`
+
+**A remark inserted into the program, which is omitted at runtime, is called a comment.**
+
+**NOTE:** Comments are very important. They are used not only to make your programs easier to understand, but also to disable those pieces of code that are currently not needed (e.g., when you need to test some parts of your code only, and ignore others). Good programmers describe each important piece of code, and give self-commenting names to variables, as sometimes it is simply much better to leave information in the code.
+
+## INPUT
+
+The input() function is able to read data entered by the user and to return the same data to the running program.
