@@ -1,3 +1,5 @@
+# Module 2
+
 ## A Function
 
 A function is able to:
@@ -37,7 +39,7 @@ Python doesn't accept things like these. It's prohibited. What Python does allow
 
 11_111_111
 
-### Variables
+## Variables
 
 how to store the results of these operations, in order to use them in other operations
 special "boxes" (or "containers" as we may call them) for that purpose,
@@ -55,22 +57,13 @@ of these containers can be varied in (almost) any way.
 * upper- and lower-case letters are treated as different
 * the name of the variable must not be any of Python's reserved words (the keywords)
 
-### Keywords
+## Keywords
 
 ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 
 They are called keywords or (more precisely) reserved keywords. They are reserved because you mustn't use them as names: neither for your variables, nor functions, nor any other named entities you want to create.
 
 **A variable comes into existence as a result of assigning a value to it.**
-
-Concatenation operator:
-
-`string + string`
-
-Replication operator:
-
-`string * number` </br>
-`number * string`
 
 **A remark inserted into the program, which is omitted at runtime, is called a comment.**
 
@@ -79,3 +72,30 @@ Replication operator:
 ## INPUT
 
 The input() function is able to read data entered by the user and to return the same data to the running program.
+
+**Note**: the result of the input() function is a string. This means that you mustn't use it as an argument of any arithmetic operation, e.g., you can't use this data to square it, divide it by anything, or divide anything by it.
+
+### Type casting (type conversions)
+
+- the int() function takes one argument (e.g., a string: int(string)) and tries to convert it into an integer; if it fails, the whole program will fail too.
+- the float() function takes one argument (e.g., a string: float(string)) and tries to convert it into a float (the rest is the same).
+
+### String operators
+
+#### Concatenation
+
+- The + (plus) sign, when applied to two strings, becomes a concatenation operator:
+
+`string + string`
+
+- concatenation operator is not commutative, i.e., "ab" + "ba" is not the same as "ba" + "ab".
+- if you want the + sign to be a concatenator, not an adder, you must ensure that both its arguments are strings.
+
+#### Replication
+
+- The \* (asterisk) sign, when applied to a string and number (or a number and string, as it remains commutative in this position) becomes a replication operator:
+
+```
+string * number
+number * string
+```
