@@ -87,3 +87,25 @@ Results
 - & requires exactly two 1s to provide 1 as the result;
 - | requires at least one 1 to provide 1 as the result;
 - ^ requires exactly one 1 to provide 1 as the result.
+
+# List
+
+- variables that are able to store exactly one given value at a time. Such variables are sometimes called scalars
+- The value inside the brackets which selects one element of the list is called an index, while the operation of selecting an element from the list is known as indexing.
+- Any of the list's elements may be removed at any time ‒ this is done with an instruction named del (delete). Note: it's an instruction, not a function.
+
+## Functions vs. methods
+
+- A method is a specific kind of function ‒ it behaves like a function and looks like a function, but differs in the way in which it acts, and in its invocation style.
+
+- A function doesn't belong to any data ‒ it gets data, it may create new data and it (generally) produces a result.
+
+- A method does all these things, but is also able to change the state of a selected entity.
+
+- A method is owned by the data it works for, while a function is owned by the whole code.
+
+- This also means that invoking a method requires some specification of the data from which the method is invoked.
+- append(). It takes its argument's value and puts it at the end of the list which owns the method.
+  `list.append(value)`
+- insert() method is a bit smarter ‒ it can add a new element at any place in the list, not only at the end.
+  `list.insert(location, value)`
