@@ -109,3 +109,5 @@ Results
   `list.append(value)`
 - insert() method is a bit smarter ‒ it can add a new element at any place in the list, not only at the end.
   `list.insert(location, value)`
+
+## The bubble sort
