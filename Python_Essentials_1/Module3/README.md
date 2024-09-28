@@ -110,4 +110,6 @@ Results
 - insert() method is a bit smarter ‒ it can add a new element at any place in the list, not only at the end.
   `list.insert(location, value)`
 
-## The bubble sort
+## Slice
+
+- A slice of this form makes a new (target) list, taking elements from the source list ‒ the elements of the indices from start to end - 1.
