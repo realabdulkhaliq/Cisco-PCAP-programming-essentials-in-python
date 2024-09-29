@@ -31,3 +31,19 @@ https://docs.python.org/3/library/functions.html
 
 - parameters exist only inside functions in which they have been defined, and the only place where the parameter can be defined is a space between a pair of parentheses in the def statement;
 - assigning a value to the parameter is done at the time of the function's invocation, by specifying the corresponding argument.
+
+### Effects and results: the return instruction
+
+![Return a value by Function](image-1.png)
+
+#### A few words about None
+
+Its data doesn't represent any reasonable value ‒ actually, it's not a value at all; hence, it mustn't take part in any expressions.
+
+**Note: None is a keyword**
+
+There are only two kinds of circumstances when None can be safely used:
+
+- when you assign it to a variable (or return it as a function's result)
+- when you compare it with a variable to diagnose its internal state.
+- Don't forget this: if a function doesn't return a certain value using a return expression clause, it is assumed that it implicitly returns `None`.
