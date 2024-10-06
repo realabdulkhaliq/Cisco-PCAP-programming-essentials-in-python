@@ -1,5 +1,5 @@
+# Uncomment line 75 #board[1][1] = "X" # set first 'X' in the middle than run
 from random import randrange
-
 
 def display_board(board):
 	print("+-------" * 3,"+", sep="")
@@ -72,7 +72,7 @@ def draw_move(board):
 
 
 board = [ [3 * j + i + 1 for i in range(3)] for j in range(3) ] 
-board[1][1] = 'X' # set first 'X' in the middle
+#board[1][1] = "X" # set first 'X' in the middle
 free = make_list_of_free_fields(board)
 human_turn = True # which turn is it now?
 while len(free):
